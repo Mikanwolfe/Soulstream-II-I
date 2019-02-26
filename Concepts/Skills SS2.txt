@@ -1,0 +1,107 @@
+
+SS2 Skills + Classes concepts
+
+Normal
+
+Stat roll - 60PTS
+
+STR (10~30)
+DEX (0~20)
+INT (0~20)
+LUC (0~20)
+WIL (0~20)
+
+DFR = 0
+
+HP/MP = 100
+
+SkillS:
+
+Normal
+HP: 100
+MP: 100
+
+-Heal
+	Heals % of HP
+-Magic Arrow
+	Drains MP for fair damage
+-Attack
+	Basic attack, small MP drain
+-Rest
+	Replenishes MP
+
+Locked Skills
+
+-Magic Claw
+-Fusion
+-Sokatsui
+-Lightning
+-Enlightenment
+-Dire Blade
+
+Eweca:
+Average damage with medium defpen, very high balance, all-rounder.
+HP: 350
+MP: 700
+DMG: Med
+BAL: High
+DEF: Medium
+DFP: Medium
+ACC: Medium
+
+-Ice Spear
+	Basic Eweca Attack, good damage
+-Firestorm
+	Drains HP and MP, alright damage, Cooldown 1
+-Eweca Scythe
+	Very high dfp, though damage is a bit lacking. average mp drain.
+-Clairvoyance
+	increases int, dex and dfp (Cooldown 1 + Duration)
+-Holy Arrow
+	Very strong - drains MP and HP, alright dpf. Cooldown 2
+
+Laceda
+Very good damage with lower defpen, needs a bit of skill.
+HP: 450
+MP: 150
+DMG: High
+BAL: Medium
+DEF: Medium
+DEF: High
+DFP: Low
+ACC: High
+
+-Cero
+	Nice damage and low drain, alright dpf
+-Lunar Scythe
+	Drains a lot of MP, great damage and below-reasonable dfp cooldown 1
+-Lunar Spear
+	Drains an alright amount of MP, with great dfp though alright damage.
+-Sharp Mind
+	Increases avoidance, accuracy and dex (cooldown 1 + duration)
+-Laceda Blade
+        Drains HP and MP, below average dpf, very, very high damage. Cooldown 2
+Luminous
+Very high damage with very good defpen, though the amount of health and terrible balance make it difficult.
+HP: 150
+MP: 500
+DMG: High
+BAL: Low
+DEF: Low
+DFP: High
+ACC: Medium
+
+-Wings of White
+	Very high defpen with reasonable damage, though the low balance makes it hard. 
+-Dark Light
+	Reasonable defpen but with insane damage potential. non-existent balance is annoying. Cooldown 1
+-Wings of Rage
+	For a Luminous skill, very good balance, though the dfp is a bit lacking along with overall damage.
+-Wither
+	Increases Balance, def and avoidance. (cooldown 1 + duration)
+-Luminous Arc
+	Very, very powerful, barrage of attacks. If the enemy survives, well, gg. Cooldown 2
+
+
+
+Luminous

@@ -1,0 +1,42 @@
+SKILLS
+=============================
+NORMAL
+=============================
+ATT 	Attack
+HEA 	Heal
+FUS 	Fusion
+RES 	Rest
+=============================
+LOCKED
+=============================
+MGC	    Magic Claw
+MGA     Magic Arrow
+SOK     Sokatsui
+LIG	    Lightning
+ENL     Enlightenment
+DBL	    Dire Blade
+=============================
+EWECA
+=============================
+ICE  	Ice Spear
+FIR 	Firestorm
+ESC 	Eweca Scythe
+CLA 	Clairvoyance
+HLY 	Holy Arrow
+=============================
+LACEDA
+=============================
+CER		Cero
+LSC		Lunar Scythe
+LSP		Lunar Spear
+SHM		Sharp Mind
+LAC		Laceda Blade
+=============================
+LUMINOUS
+=============================
+WOW		Wings of White
+DKL		Dark Light
+WOR		Wings of Rage
+WIT		Wither
+ARC		Luminous Arc
+=============================

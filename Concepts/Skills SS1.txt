@@ -1,0 +1,130 @@
+
+next work on skill names + ideas.
+
+Normal:
+A Normal adventurer, with magic and melee skills, you're a force to be reckoned with.
+ATT: 1 Defpen: 0.0
+DEF: 1 BASE HEALTH:100 Defrate:1.5  
+ENG: 1 BASE ENERGY: 100
+Skills:
+-Heal[min][mid][max]
+-Attack   :   +AT
+-Rest     :   +EN
+-Fusion   :   -HP   -EP  ++AT
+-Ebless   :   -HP   +EN
+
+Locked Skills
+
+-Sokatsui :  --EN  ++ATT COOLDOWN 1
+-Lightning:  --EN  ++ATT 
+-Getsuga  : ---EN +++ATT COOLDOWN 2
+-Hdrain   :  --EN    +HP   +AT COOLDOWN 1
+
+::--
+Normal Blessing: 
+::--
+
+
+[COMPLETED]
+Eweca:
+[Energy Class]
+Blessed with the energy of Eweca, you now have mythical magic abilities,
+Overwhelming anyone who gets in your way, you are a descendant of Eweca.
+[Difference] The difference between Eweca and other classes is their power to keep going.
+- They are able to keep going and keep on throwing huge attacks at no stop.
+[Technical] Eweca attacks cost a lot less energy than the damage, unlike all the other classes.
+- this gives the eweca class to be able to hugely damage anything with little effort
+
+ATT: 2 Defpen: 0.4 Deflimit: 30
+DEF: 1 BASE HEALTH: 150 Defrate:1.0 MAX HEALTH: 250
+ENG: 3 BASE ENERGY: 300 MAX ENERGY: 600
+Skills:
+1. Ice Spear  :  --EN  ++AT 
+2. Heal       :   -EN   +HP 
+3. M. Sheild  :   -EN   +DF
+4. Holy Arrow : ---EN   +++AT COOLDOWN 3
+U. Genesis    : ---EN  --HP ++++AT
+
+::--
+
+[COMPLETED]
+Laceda:
+[Attack Class]
+Given the strength of Laceda, you now have outstanding attack power.
+Destroying anything that tries to get in the way, you have the birthright to Laceda.
+[Difference] The difference between Laceda and other classes is Laceda's alility to stay constant.
+- this means that laceda will do almost constant damage, constant huge damage.
+[Technical] Though Laceda drains little energy compared to other classes, the energy recharge rate for laceda is slow
+- this means that this class is the opposite of eweca and must use co-ordinated attacks.
+ATT: 3 Defpen: 0.2 Deflimit: 20
+DEF: 2 BASE HEALTH: 200 Defrate:2.0 MAX HEALTH: 300
+ENG: 1 BASE ENERGY: 50 MAX ENERGY: 150
+Skills:
+1. Lunar Cero     :   -EN  ++AT
+2. Lunar Bradish  :  --EN   -HP +++AT
+3. M. Sheild      :   -EN   +DF
+4. Laceda Blossom : ---EN   +HP  ++AT
+U. Laceda Blade   : ---EN ---HP ---DF ++++AT 
+
+::--
+
+[COMPLETED]
+Falias:
+[Defence Class]
+Bestowed with the force of Falias, you know have superior defence capabilities.
+Avenging Falias herself, nothing can stop such a force. You are the true heir to Falias.
+[Difference] Huge defence, huge health, low attack, this means that Falias is the ultimate survivor
+[Technical] Huge defrate, minimal def peneratration, not just anyone can beat a failias.
+ATT: 1 Defpen: 0.2 Deflimit: 40 
+DEF: 3 BASE HEALTH: 300 Defrate:3.0 MAX HEALTH: 500
+ENG: 2 BASE ENERGY: 100 MAX ENERGY: 200
+Skills:
+1. Smash        :   -EN    +AT
+2. F. Heal      :   -EN   ++HL
+3. F. Shield    :   -EN   ++DF   +HP
+4. Light Bradish:  --EN   --HP +++AT
+U. Falias'Wrath :  --EN  ---HP ---DF ++++AT
+
+::--
+Admin Blessing : Wolfe 
+::--
+
+Luminous
+[Wolfe-Only Admin Class]
+[Attack Class]
+Through the hidden power of the Goddess' Morringhan and Neamhein, nothing is impossible.
+Letting the wrath of the deities into the world, you are a true diety yourself.
+[Difference] The difference between the Luminous and the Other classes is that the luminous
+- has the strongest atack of all the classes, but the attacks are not stable like Laceda.
+[Technical] The Luminous has the strongest defpen rate of of all the classes.
+- Low health, huge energy and huge potential. Simple as that.
+ATT:4 Defpen: 1.0 Deflimit: 20
+DEF:1 BASE HEALTH: 200 Defrate: 2.0 MAX HEALTH: 350
+ENG:3 BASE ENERGY: 200 MAX ENERGY: 800
+Skills:
+1. Wings of White   :   -EN  ++AT                  :    ++ATT
+2. Black light      :  --EN   -HP +++AT            :   +++ATT
+3. M. Shield        :  --EN   +HP   +DF            
+4. Wings of Rage    :  --EN  --HP ++++AT           :  ++++ATT
+U: Luminous Arc     : ----EN ----HP ----DF +++++AT : +++++ATT
+
+::--
+Admin Blessing : Domomantry [Eric]
+::--
+
+[Eric-Only Admin Class]Phantom
+[Energy Class]
+Thriving in the darkest forest of the night of nights, the phantom will never be known
+No one will know, because no one will survive to tell the tale. Yet, the phantom has come.
+ATT:3 Defpen: 0.6
+DEF:2 BASE HEALTH: 200 Defrate: 2.0
+ENG:3 BASE ENERGY: 300
+Skills:
+1. Tsunami      : 
+2.
+3.
+4.
+U.
+
+
+

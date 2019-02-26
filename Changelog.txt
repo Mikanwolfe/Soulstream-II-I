@@ -1,0 +1,53 @@
+
+Term 1, Year 10 2014.
+
+~19/3, A good amount of the systems of SSII done, though there is a lot to do.
+
+[17/3]
+	SSII Logo changed
+
+[19/4]
+	Written all 'saved varible blocks' for all skills, about 3224 lines.
+	Removed "Luminous Future Studios", replaced with "Wolfe Lumi"
+	Base variables added, Skill Accuracy, Balance and Penetration
+	{EXA} Exacerbate changed to {WIT} Wither
+[20/3]
+	Finished all variables (accuracy, balance and penetration) for all skills.
+	Added save function (saves about 160 different variables)
+	Added Soul Coin and Experience Variables - Forgot two of the most important variables...
+[25/3]
+	Finished Cooldown Function for skills
+	Finished Damage Function - calculates MIN ~ MAX Damage as well as returning a value
+	Finished Accuracy Function - calculates using DEX and INT for a number of 100 then returns a 1 or 0
+[26/3]
+	Finished Defence function - takes into account player defence, defence penetration and prot%. defence difference capped at 0 and 200. this may change.
+	Finalised Loading - Everything is set so that i can start work on battle screens.
+::NODATE
+
+Okay, revamping everything you know about SSII
+::TERM 2 YEAR 10
+
+Saved variable blocks deleted. Newer, more optimised algorithms take it's place.
+All function code revamped, optimised with newer algorithms.
+Statistic systems finished, all code optimised
+menu system optimised, no more typing ing
+Custom key system added
+Revamped Assignable key system, limited keys to ASFDZXCV
+Pause menu added
+More statistics shown opposed to the plan
+Death system and animation finished
+Attack system + animation finished
+Graphics optimised with errormessages
+Starting classes optimised, more affect on stats
+Starting shop finished, more Stats shown
+
+[SYSTEM]	Critical Chance in calculations capped at 50%
+more stuff added to pause menu
+Passive shop finished, all passives/masteries have an infinite limit
+Skills shop finished, all skills up and working, however, not all animations are finished
+Deaths more generous - gives more xp and sc
+fus unlocked, mga locked.
+Starting abilities added
+Starting abilities revamped again, differing gives
+more starting abilities!
+	

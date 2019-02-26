@@ -1,0 +1,59 @@
+N = NORMAL
+
+::float 10 multipliers
+set/a p1.ast=0
+set/a p1.adx=0
+set/a p1.ain=0
+set/a p1.alk=0
+set/a p1.awl=0
+set/a p1.adp=0
+set/a p1.adf=0
+set/a p1.acr=0
+set/a p1.acm=0
+
+ADD= 5 DECREASE = -5
+Shop can increase this
+
+CALCULATIONS AND INGAME CALS USE DOUBLE CHAR VARIABLES. SYSTEM USES TRIPLE. execption is prot.
+INT = IN
+DEX = DX
+
+
+                            Starting abilities
+
+           S         Sniper : +Dexterity       +Strength
+                            : -Inc .MP Drain   -Defence
+
+           T          Thief : +Dexterity       +Intelligence
+                            : -Strength        -Defence
+
+           W        Warrior : +Defence         +Defence Pen.
+                            : -Luck            -Intelligence
+
+           K         Knight : +Will            +Strength
+                            : -Dexterity       -Intelligence
+
+           M           Mage : +Intelligence    +Reduced MP Cost
+                            : -Defence         -Strength
+
+           A      Alchemist : +Luck            +Crit Multiplier
+                            : -Defence         -Intelligence
+
+           R         Reaper : +Defence Pen.    +Strength
+                            : -Critical Rate   -Intelligence
+
+           H           Hero : +Willpower       +Luck
+                            : -Intelligence    -Inc. MP Drain
+
+           N         Ranger : +Defence Pen.    +Dexterity
+                            : -Intelligence    -Defence
+
+           I       Assassin : +Critical Rate   +Luck
+                            : -Defence         -Willpower
+
+           W         Wizard : +Intelligence    +Reduced MP Cost
+                            : -Dexterity       -Willpower
+
+           D   Shadowhunter : +Willpower       +Strength
+                            : -Critical Rate   -Inc. MP Drain
+

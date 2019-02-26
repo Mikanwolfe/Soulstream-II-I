@@ -1,0 +1,34 @@
+
+Soulstream II call functions
+
+::random
+call:funct.random min max
+:funct.random
+set/a funct.return=(%random% %% (%2 - %1 + 1)) + %1
+goto:eof
+
+:: funct.cooldown
+call:funct.cooldown
+
+::========================================================================================================
+::Battle Calculations as Functions
+
+::accuracy Calculations
+::returns a 1 or 0 as funct.return
+::usage call:funct.acc [Skill_Base_Accuracy] [Attaker] [Attacked]
+
+
+::damage calcutions
+::returns damage as funct.return
+::usage: call:funct.damage [Skill_Base_Damage] [Skill_Base_Balance] [Attacker] [Attacked]
+::attacker/attacked = p1 or p2
+
+
+::========================================================================================================
+
+::graphics call. Calling everything graphics!
+::usage call:graphics [skill] [attacker] [hit, 1/0] [damage] [crit, 1/0] [mpdrain]
+
+::usage: call:skillcal [attacker] [attackee] [skill]
+
+::usage: call:buffcal [p1/2] [buff/skill]

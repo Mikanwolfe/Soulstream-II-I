@@ -1,0 +1,61 @@
+Passive Skills and Perks SS2
+Skills increase stats whilst perks increase other variables
+
+Skills:
+
+Note, masteries start off cheap but get expensive.
+
+Combat Mastery
+CBT	Inreases STR, DEX
+Magic Mastery
+MGC	Increases INT, WIL
+Focus Mastery
+FCS	Increases DEX, WIL
+Speed Mastery
+SPD	Increases DEX, INT
+Karma Mastery
+KRM	Increases LUK, INT
+Resistance Mastery
+RES	Increases WIL, STR
+Intuition Mastery
+INT	Increases WIL, LUK
+Synthesis Mastery
+SYN	Increases INT, STR
+Experience Mastery
+EXP	Increases LUK, STR
+Regeneration Mastery
+REG	Slowly replenishes health
+Rumination Mastery
+RUM	Slowly replenishes mana
+
+=============
+STR +Max +Def
+DEX +BAL +ACC +DFP
+INT +MP +CRR +Max
+LUK +CRM +SC
+WIL +HP +XP
+=============
+
+p1.skl.cbt.lv
+p1.skl.cbt.sc
+p1.skl.cbt.sx
+p1.slk.cbt.sv < SET AT LOAD
+
+Passive Perks
+
+-Mp cost
+
+
+
+Active Perks (planned for a later date)
+
+Adrenaline
+	When player is at ~10%HP, increased Critical
+Potential
+	Gives a low% that a skill will drain half of energy
+Bloodthirst
+	Grants a low% that an attack will replenish the player's health, max 50% regained
+Deadeye
+	Grants a low% that the skill will have very, very high accuracy
+Sixth Sense
+	Grants a low% chance that you will have a very, very high chance of avoidance

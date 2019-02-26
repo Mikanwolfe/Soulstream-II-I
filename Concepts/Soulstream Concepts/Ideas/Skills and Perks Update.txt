@@ -1,0 +1,48 @@
+
+Players will have skills and perks to choose from
+
+skills and perks will be reliant on the ranking system and the statistical system
+
+skills are progressively better
+
+perks start to work once a skill has reached a certain rank, say A, 5, 1?
+
+
+EG.
+
+	Perks:
+
+Lucky
+ When player is at 10/20% of hp, critical rate increased
+
+Concentration
+ Skill damage slowly increases as battles progress
+
+Gifted
+ Grants a 5% chance that when attacking, the attack will cost no energy. Does not stack with final
+
+Bloodthirst
+ Grants a 10% chance that an attack will replenish the player's health by 10% of the damage dealt
+
+Deadeye
+ Grants a 10% chance that a skill will have 100% accuracy
+
+	Skills:
+
+Hunter
+ Damage slowly increases. max 50% stacks with final.
+
+Zen
+ Slowly replenishes energy
+
+Healthy
+ Slowly replenishes health
+
+Mythical
+ Increases magic damage
+
+Powerful
+ Increases physical damage
+
+Final
+ Grants a chance that the player will fire a secondary shot after the first. second shot will be max half the power.

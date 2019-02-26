@@ -1,0 +1,145 @@
+
+IDEAS FROM SORA NO OTISHIMO
+
+Demigod-Type Echo "Wolfe"
+
+::=====================---------------==
+
+Class modes
+
+1st Rank > 2nd Rank
+
+Eweca
+	-Ice Spear
+	-Eweca Heal
+	-Mana Shield
+	-Holy Arrow
+	-Genesis
+
+ATT ++
+ENG +++
+ HP +
+DPN ++
+DFR +
+
+
+Eweca-Type [Playername] "Silience"
+
+	-Silence of Exodus
+	-Silence of Eclipse
+	-Silence of the Night
+	-Silence of Light
+	-Silence of Wrath
+
+	-Silence of Eternity
+
+ATT +++
+ENG ++++
+ HP ++
+DPN ++
+DFR +
+
+	+ Damage
+	+ Energy
+	+ Health
+	+ Defence Penetration
+
+Laceda
+	-Lunar Cero
+	-Lunar Brandish
+	-Mana Shield
+	-Laceda Blossom
+	-Laceda Blade
+
+ATT +++
+ENG +
+ HP ++
+DPN +
+DFR +
+
+
+Laceda-Type [Playername] "Fury"
+
+	-Fury of the Blade
+	-Fury of the Moon
+	-Fury of the Night
+	-Fury of the Shadow
+	-Fury of the Blood
+
+	-Fury of Infinity
+
+ATT ++++
+ENG ++
+ HP ++
+DPN +
+DFR ++
+
+	+ Damage
+	+ Energy
+	+ Health
+	+ Defence Rate
+
+Falias 1st Rank
+	-Smash
+	-Falias Heal
+	-Falias Shield
+	-Falias Brandish
+	-Falias Seal
+
+ATT +
+ENG ++
+ HP +++
+DPN +
+DFR ++
+
+
+Falias-Type [Playername] "Valkyrie"
+
+	-Way of the Eternal
+	-Way of the Sword
+	-Way of the Fury
+	-Way of the finite
+	-Way of the Edge
+
+	-Way of the Gods
+
+ATT ++
+ENG +++
+ HP ++++
+DPN +
+DFR +++
+
+	+ Damage
+	+ Health
+	+ Energy
+	+ Defence Rate
+
+Luminous
+	-Wings of White
+	-Black Light
+	-Luminous Shield
+	-Wings of Rage
+	-Luminous Arc
+
+ATT ++++
+ENG +++
+ HP +
+DPN ++
+DFR +
+
+
+Demigod-Type Luminous
+
+	-Wings of Exile
+	-Wings of Eclipse
+	-Wings of Fury
+	-Wings of Infinity
+	-Wings of Eternity
+
+	-Wings of Luminous
+
+ATT +++++
+ENG +++
+ HP ++
+DPN +++
+DFR +

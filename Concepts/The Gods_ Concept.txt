@@ -1,0 +1,21 @@
+Okay:
+
+Abilities: 12
+Chosen at start
+
+Blessings: 3
+Eweca 		MP
+Laceda 		HP
+Luminous	DMG
+
+Demigod: 4
+Morrighan	DMG
+Macha		HP
+Neamhain	MP
+Cichol		DEF
+
+General, not finalised.
+
+Wording:
+
+Wolfe, Alchemist of the Luminous, Embodiment of Morrighan.

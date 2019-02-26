@@ -1,0 +1,265 @@
+Skilllabels
+
+Attack ATT
+
+Rest RES
+
+Fusion FUS
+
+Heals HLA
+
+:EWECA
+
+Ice Spear ICE
+
+Eheal HLA
+
+Mana Sheild MSH
+
+Holy Arrow HLY
+
+Genesis GEN
+
+:LACEDA
+
+Cero LLC
+
+Brandish LBR
+
+blossom LLB
+
+blade LBL
+
+:FALIAS
+
+Smash SMH
+
+Fheal HLA
+
+Falias Sheild FSH
+
+Brandish FBR
+
+Falias Seal FSL
+
+:LUMINOUS
+
+Wings of White WWT
+
+Black Light BLK
+
+Luminous Shield LSH
+
+Wings of Rage WRG
+
+Luminous Arc ARC
+
+Final Luminous LMC
+
+
+:=====================
+
+Skill Modifications with the new ranks sys:
+
+
+
+Luminous Skill Steps:
+Normal
+Critical
+Fatal
+Deadly
+Godly
+Overkill
+Annihilation
+Incineration
+Final Hit
+Legendary
+Final Light
+Final Darkness
+Demonic Light
+Demonic Darkness
+Final Luminous
+End Luminous
+
+Player Stat fixes:
+Class starting stats changed to
+eweca 100h 200e
+laceda 150h 50e
+falias
+
+::Ranks
+key:
+F (Rank code) 2 (arithmetic value) 50% (damage rate%) 50 (cost) 0 (experience cost)
+cost cal:
+default cost * skillvalue where skillvalue = 10*float
+default xp * skillvalue where skillvalue = 10*float
+e.g
+ice skillvalue=1
+if F cost = 50, skilladvancecost = 50
+
+Not Learnt  0  0%    0 Skill Cost
+Novice      1  40%  20 20
+
+F  2  50%  30  20
+E  3  60%  40  20
+D  4  70%  50  40
+C  5  80%  60  60
+B  6  90%  60  80
+A  7  100% 80  100 :: 100% total cost = 320mesos , 320exp
+9  8  110% 80  100
+8  9  120% 80  100
+7  10 140% 100 140
+6  11 160% 120 180
+5  12 180% 140 200
+4  13 200% 160 200 ::200% total cost = 1000mesos
+3  14 240% 240 200
+2  15 280% 360 300
+1  16 340% 480 400
+0  17 400% 520 500 ::400% total cost = 2600mesos
+
+Skill Value .sv
+Skill Rank .sr
+Skill Multiplier .sm
+Skill Declaration .sd
+
+Skill Cost .sc
+Skill Experience .se
+
+Experience Gain:
+
+damageXP = %total damage per round% / 5
+
+Win:   75 + DXP
+Lose:  10 + DXP
+Draw:  40 + DXP
+
+Start Ranks:
+Attack       D  70%
+Fusion       F  50%
+Heal (all)   D  70%
+Rest         A  100%
+
+Sokatsui     N  0%
+Hdrain       N  0%
+Lightning    N  0%
+Getsuga      N  0%
+
+Skill Costs  GOLD
+
+Adenturer
+
+Sokatsui      150
+Lighting      450
+Getsuga       600
+Hdrain        250
+
+Eweca
+
+Ice Spear      0
+Eheal          0
+Mana Sheild    250
+Holy Arrow     600
+Genesis        800
+
+Laceda
+
+Cero           0
+Brandish       200
+Mana Sheild    250
+Lunar Blossom  700
+Laceda Blade   900
+
+Falias
+
+Smash          0
+FHeal          150
+Mana Sheild    250
+Brandish       550
+Falias Seal    800
+
+Luminous
+
+Wings of White   100
+Black Light      200
+Luminous Shield  300 
+Wings of Rage    800
+Luminous Arc     1000
+
+
+CallFunctions:
+:sok.dec
+
+:==----------------------------=
+
+if %p1..sr%==0 set/a p1.%sdc%.sm=0
+if %p1..sr%==0 set/a p1.%sdc%.sc=0
+if %p1..sr%==0 set/a p1.%sdc%.se=0
+if %p1..sr%==0   set p1.%sdc%.sd=Not Learnt
+if %p1..sr%==1 set/a p1.%sdc%.sm=4
+if %p1..sr%==1 set/a p1.%sdc%.sc=(%p1..sv% * 20) / 10
+if %p1..sr%==1 set/a p1.%sdc%.se=(%p1..sv% * 20) / 10
+if %p1..sr%==1   set p1.%sdc%.sd=Novice
+if %p1..sr%==2 set/a p1.%sdc%.sm=5
+if %p1..sr%==2 set/a p1.%sdc%.sc=(%p1..sv% * 30) / 10
+if %p1..sr%==2 set/a p1.%sdc%.se=(%p1..sv% * 20) / 10
+if %p1..sr%==2   set p1.%sdc%.sd=F
+if %p1..sr%==3 set/a p1.%sdc%.sm=6
+if %p1..sr%==3 set/a p1.%sdc%.sc=(%p1..sv% * 40) / 10
+if %p1..sr%==3 set/a p1.%sdc%.se=(%p1..sv% * 20) / 10
+if %p1..sr%==3   set p1.%sdc%.sd=E
+if %p1..sr%==4 set/a p1.%sdc%.sm=7
+if %p1..sr%==4 set/a p1.%sdc%.sc=(%p1..sv% * 50) / 10
+if %p1..sr%==4 set/a p1.%sdc%.se=(%p1..sv% * 40) / 10
+if %p1..sr%==4   set p1.%sdc%.sd=D
+if %p1..sr%==5 set/a p1.%sdc%.sm=8
+if %p1..sr%==5 set/a p1.%sdc%.sc=(%p1..sv% * 60) / 10
+if %p1..sr%==5 set/a p1.%sdc%.se=(%p1..sv% * 60) / 10
+if %p1..sr%==5   set p1.%sdc%.sd=C
+if %p1..sr%==6 set/a p1.%sdc%.sm=9
+if %p1..sr%==6 set/a p1.%sdc%.sc=(%p1..sv% * 60) / 10
+if %p1..sr%==6 set/a p1.%sdc%.se=(%p1..sv% * 80) / 10
+if %p1..sr%==6   set p1.%sdc%.sd=B
+if %p1..sr%==7 set/a p1.%sdc%.sm=10
+if %p1..sr%==7 set/a p1.%sdc%.sc=(%p1..sv% * 80) / 10
+if %p1..sr%==7 set/a p1.%sdc%.se=(%p1..sv% * 100) / 10
+if %p1..sr%==7   set p1.%sdc%.sd=A
+if %p1..sr%==8 set/a p1.%sdc%.sm=11
+if %p1..sr%==8 set/a p1.%sdc%.sc=(%p1..sv% * 80) / 10
+if %p1..sr%==8 set/a p1.%sdc%.se=(%p1..sv% * 100) / 10
+if %p1..sr%==8   set p1.%sdc%.sd=9
+if %p1..sr%==9 set/a p1.%sdc%.sm=12
+if %p1..sr%==9 set/a p1.%sdc%.sc=(%p1..sv% * 100) / 10
+if %p1..sr%==9 set/a p1.%sdc%.se=(%p1..sv% * 140) / 10
+if %p1..sr%==9   set p1.%sdc%.sd=8
+if %p1..sr%==10 set/a p1.%sdc%.sm=14
+if %p1..sr%==10 set/a p1.%sdc%.sc=(%p1..sv% * 120) / 10
+if %p1..sr%==10 set/a p1.%sdc%.se=(%p1..sv% * 180) / 10
+if %p1..sr%==10   set p1.%sdc%.sd=7
+if %p1..sr%==11 set/a p1.%sdc%.sm=16
+if %p1..sr%==11 set/a p1.%sdc%.sc=(%p1..sv% * 140) / 10
+if %p1..sr%==11 set/a p1.%sdc%.se=(%p1..sv% * 200) / 10
+if %p1..sr%==11   set p1.%sdc%.sd=6
+if %p1..sr%==12 set/a p1.%sdc%.sm=18
+if %p1..sr%==12 set/a p1.%sdc%.sc=(%p1..sv% * 160) / 10
+if %p1..sr%==12 set/a p1.%sdc%.se=(%p1..sv% * 200) / 10
+if %p1..sr%==12   set p1.%sdc%.sd=5
+if %p1..sr%==13 set/a p1.%sdc%.sm=20
+if %p1..sr%==13 set/a p1.%sdc%.sc=(%p1..sv% * 240) / 10
+if %p1..sr%==13 set/a p1.%sdc%.se=(%p1..sv% * 200) / 10
+if %p1..sr%==13   set p1.%sdc%.sd=4
+if %p1..sr%==14 set/a p1.%sdc%.sm=24
+if %p1..sr%==14 set/a p1.%sdc%.sc=(%p1..sv% * 80) / 10
+if %p1..sr%==14 set/a p1.%sdc%.se=(%p1..sv% * 100) / 10
+if %p1..sr%==14   set p1.%sdc%.sd=3
+if %p1..sr%==15 set/a p1.%sdc%.sm=28
+if %p1..sr%==15 set/a p1.%sdc%.sc=(%p1..sv% * 360) / 10
+if %p1..sr%==15 set/a p1.%sdc%.se=(%p1..sv% * 300) / 10
+if %p1..sr%==15   set p1.%sdc%.sd=2
+if %p1..sr%==16 set/a p1.%sdc%.sm=34
+if %p1..sr%==16 set/a p1.%sdc%.sc=(%p1..sv% * 480) / 10
+if %p1..sr%==16 set/a p1.%sdc%.se=(%p1..sv% * 400) / 10
+if %p1..sr%==16   set p1.%sdc%.sd=1
+if %p1..sr%==17 set/a p1.%sdc%.sm=40
+if %p1..sr%==17 set/a p1.%sdc%.sc=0
+if %p1..sr%==17 set/a p1.%sdc%.se=0
+if %p1..sr%==17   set p1.%sdc%.sd=0

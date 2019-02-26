@@ -1,0 +1,113 @@
+
+Ideas for concepts:
+
+Items:
+
+FindMyWeapon Fuction, a single function (decoder function based) to declare single items.
+So players get different ItemVariables, eg.
+
+Item Armour Variables as .IAV
+
+Head Variable as p1.iav.%itemID%
+Torso Variable as p1.iav.%itemID%
+Leggings Variable
+Shoes Variable
+Gloves Variable
+Ring Variable
+Misc Variable
+
+Player Item Slots
+
+players can equip armour as well as store a limited amount of items,
+might impliment the ability to extend itemstorage space
+
+Player1 ItemSlot 1 as p1.is.1
+Player2 ItemSlot 4 as p2.is.4
+
+Enchantments:
+
+Enchantments saved as eIDs as p1.eid.%eid%
+
+eid(s) attached to player slot variables, so a head variable with an eID means that the armour has that eID
+
+eg. Magnanimous Gold Ring - +100% Meso/Exp Gain
+
+Enchants (verbs)
+
+legendary
+godly
+deadly
+magnanimous  - generous
+affable      - friendly
+staunch      - Strong, substantial
+submissive   - obidient
+wonderful
+delightful
+mediocre     - average
+average
+ordinary
+satisfactory
+fatal
+envious
+luxurious
+comfortable
+miserable
+intricate
+immature 
+enthusiastic
+vigorous
+tender
+experienced
+authentic
+reasonable
+extravagant
+beautiful
+noble
+archaic      -Early, an archaic time
+exalted      -Noble
+rapturous    -Delight
+exstatic     -Positive, Delight, Hyper
+intolerant
+ironic
+absurd
+hypocritical
+icredible
+trivial
+significant
+dramatic
+humourous
+inspirational
+symbolic
+fair
+good
+strong
+
+::Negative
+ugly
+akward
+biazarre
+clumsy
+haughty      -too proud 
+hideous
+dreaful
+repulsive
+atrocious
+insulting
+grisly       - bad, fearful
+vexed        - annoyed
+lethargic    - tired
+weak
+thin
+small
+tiny
+unefficient
+loathsome
+stupid
+dull
+broken
+blunt
+worn
+ripped
+
+
+

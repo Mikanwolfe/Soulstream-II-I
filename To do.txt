@@ -1,0 +1,171 @@
+
+Potions and the Quick-Use slots.
+
+Inventory:
+ability to buy items, random items as well.
+applying itemstats to the character.
+
+
+There are currently 8 keys, asdfzxcv, soinstead of allowing all of them to go to skills, they can be assigned to potions as well.
+This will probably be a bit harder to do - instead of leading to the potion itself, it can use the quickslot to reroute to the appropriate buff.
+
+ITEMS!!!
+
+p1.inv.i.[1-4]
+p1.inv.e.[1-3]
+p1.inv.q.[1-2]
+
+Itemstring:
+
+[TYPE] [ID] [OTHER INFO]
+
+TYPE:
+
+0 = Empty slot
+1 = Equipment/Misc.
+2 = Potion
+
+ID:
+IDs effect how the system processes the info.
+FOR EXAMPLE:
+
+Potion, basic hp/mp potion is ID 1
+
+so: 
+
+2 1 50 0
+Item, HP Potion, Heal is 50HP and 0MP
+
+This will tell the system that it should process the next two numbers as HP and MP modifiers respectively.
+
+=========================================== IDs!
+
+Equipment
+
+[1] [ID] [PREFIX] [NAME] [OTHER INFO]
+
+Prefix draws from a list:
+
+i.e.
+1 = Ring of
+Name = Death
+== Ring of Death
+
+Prefixes
+
+0  Nothing
+1  Ring Of %%
+2  Necklace of %%
+3  Pendant of %%
+4  Scarf of %%
+5  Glove of %%
+6  Glasses of %%
+7  Robe of %%
+8  Staff of %%
+9  Bane of %%
+10 Wings of %%
+11 Amulet of %%
+12 Cross of %%
+13 Mark of %%
+14 Charm of %%
+15 Spell of %%
+16 Rune of %%
+17 Hex of %%
+18 %% Wear
+19 %% Uniform
+20 %% Outfit
+21 %% Ring
+22 %% Necklace
+23 %% Pendant
+24 %% Cross
+25 %% Amulet
+26 %% Wings
+27 %% hex
+28 %% Scarf
+29 %% Glove
+30 %% Glasses
+31 %% Staff
+32 %% Charm
+33 %% Spell
+34 %% Rune
+35 %% Scrolls
+
+IDs
+(percentage or value is 1 or 2) = p/v
+
+1 Stat
+[st dx in lk wl df dp bl p/v]
+2 HP/MP
+[hp mp p/v]
+
+
+Items (potions)
+
+[2] [ID] [OTHER INFO]
+
+Each ID will refer to a specific potion type. no name needed.
+
+1 HP/MP
+HP Potion
+MP Potion
+Hybrid Potion
+2 1 [hp mp]
+
+All the rest are buff potions. unforts.
+
+=========================================== BUFFS!
+
+Increase Prot to 50% for one or two turns
+
+Reduce MP cost for skills
+Mana shield for certain amount 
+Increased DEF (A lot of DEF) for one or two turns
+Double STR or INT for one or two turns
+Increased DEX (Accuracy) or INT (Avoidance) for one or two turns
+Replenishes HP as well as increase PROT to 20% for one turn
+regen for a set amount of turns
+
+=========================================== POTS!
+
+::effect
+
+Regen
+Poison
+Regen (mastery) denial
+
+LIMIT 3
+
+HP Potion
+MP Potion
+
+Ironskin Potion - Increases DEF for two turns
+Sniper Potion - Increases DEX for two turns
+Invisibility Potion - Increases INT for two turns
+
+
+Damage Tonic - Damage will be increased by 20% for one turn
+
+LIMIT 2
+
+Elixir - Replenishes HP/MP by 30 or 40%, limit 1 or 2
+Soul Elixir - Replenishes or Reduces MP and HP to 50%
+Stone Tonic - INT, LUK and WIL decreased to 20%, STR increased to 300%. Health and def increased to 500%. One or two turns
+Enchanter Potion - Increases Crit rate by 10% for one turn
+Illusive Potion - No MP drain for one turn
+
+
+EPIC, LIMIT 1
+
+Denial Analeptic - Take no damage for one turn
+Corrupt Analeptic - Increases damage by 100% for one turn, base damage inflicted to youself.
+Restoration Elixir - Heals all HP and MP to limits
+
+GODLY, LIMIT 1
+
+Luminous Elixir - All stats increased by 100% for two turns
+Kydos Elixir - Triple damage for one turn.
+
+Double STR or INT for one or two turns
+Increased DEX (Accuracy) or INT (Avoidance) for one or two turns
+Double damage for one turn
+

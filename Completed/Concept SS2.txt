@@ -1,0 +1,29 @@
+
+Soulstream 2 - LFS Soulstream 2
+Luminous Future Studios
+
+::=======================================================================================================::
+Concept:
+
+Soulstream 2 (SS2) will be an improved version of the original soulstream (SS). the reason for this is because the
+original soulstream's systems are quite old and are inefficient. SS2 will retain many of the aspects of the
+the original SS but will have major improvments. some major improvements include:
+
+Graphics - no longer will the display be limited to a 40x30 space but will be more detailed
+System Design - Using newer techniques soulstream can be worked to make it faster and more reliable.
+UI - The unser interfaces will be reworked so that the interfaces are not as intimitating and can be used easily
+Gameplay - SS2 gameplay will be more dynamic and early-game battles will not be decided by the great random.
+
+some other features that will be included are:
+
+character features/art - Characters will have some sort of design or equipment so that it won't just be a - and a + anymore
+Improved and more diverse skills - though a significant proportion of the skills will remain, some will not and will be replaced by better ones
+Dynamic skill leveling - skills will have more levels and different unlockables and dynamics to improve gameplay
+Improved passive skills - passive stats or skills will be added so that players will have more personalisation.
+Improved stats - the stat concept of the original SS will be revised and reworked so that it will by more efficient and work well with SS2
+
+of course there will be other improvements coming along though remaking a game that took 2~3 years again from scratch will take quite some time
+though i bring aboard some help this time so things can move along more smoothly.
+
+::=======================================================================================================::
+

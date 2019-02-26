@@ -1,0 +1,4520 @@
+@echo off
+goto:gr.%2.%1
+pause
+exit
+
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+
+:gr.p1.att
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.              +)                                             -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.              +                        )                     -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.              +                                        )     -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %3==1 goto gr.p1.att.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                              /
+echo.              +                                              -
+echo.                                                              \
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %5==0 set grph=Health
+if %5==1 set grph=CRITICAL
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                      %grph% -%4
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p1.att.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.              +                                              -   )
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                            Miss!
+echo.
+echo.
+echo.              +                                              -   
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+
+:gr.p2.att
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.              +                                             (-
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.              +                    (                         -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.              +  (                                           -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %3==1 goto gr.p2.att.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.             \
+echo.              +                                              -
+echo.             /
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %5==0 set grph=Health
+if %5==1 set grph=CRITICAL
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.        %grph% -%4
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p2.att.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.       (      +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.             Miss!
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+
+::=====================================================================================================
+::fusion!
+:gr.p1.fus
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.          -%6 MP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 1 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.             \               \
+echo.              +              ^>                               -
+echo.             /               /
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.           \                                  \
+echo.              +                               ^>              -
+echo.           /                                  /
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %3==1 goto gr.p1.fus.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.         \
+echo.                                                              //
+echo.              +                                               -
+echo.                                                              \\
+echo.         /
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                              /
+echo.
+echo.
+echo.                                                                 /
+echo.              +                                               -
+echo.                                                                 \
+echo.
+echo.
+echo.                                                              \
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %5==0 set grph=Health
+if %5==1 set grph=CRITICAL
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                      %grph% -%4
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p1.fus.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.         \
+echo.                                                              /     \
+echo.              +                                               -     ^>
+echo.                                                              \     /
+echo.         /
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                            Miss!
+echo.
+echo.
+echo.              +                                              -   
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+
+:gr.p2.fus
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                        -%6 MP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 1 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                              /               /
+echo.              +                             ^<                -
+echo.                                              \               \
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                      /                                            /
+echo.              +     ^<                                        -
+echo.                      \                                            \
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %3==1 goto gr.p1.fus.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                                     /
+echo.            \\
+echo.              +                                               -
+echo.            //
+echo.                                                                     \
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                \
+echo.
+echo.
+echo.        \
+echo.              +                                               -
+echo.        /
+echo.
+echo.
+echo.                /
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %5==0 set grph=Health
+if %5==1 set grph=CRITICAL
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.          %grph% -%4
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p1.fus.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                                    /
+echo.        /     \                                                
+echo.      ^<       +                                               -
+echo.        \     /                                               
+echo.                                                                    \
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.            Miss!
+echo.
+echo.
+echo.              +                                              -   
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+
+:gr.p1.res
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.           +%3 MP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p2.res
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                           +%3 MP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p1.hea
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.          -%3 MP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.             [ ]
+echo.              +                                              -
+echo.             [ ]
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.             [+]                                             -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.          +%4 HP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p2.hea
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                           -%3 MP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                            [ ]
+echo.              +                                              -
+echo.                                                            [ ]
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.              +                                             [-]
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                          +%4 HP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+::====================================================================================================================
+::mmaaaaagic claaaaw!!
+:gr.p1.mgc
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.          -%6 MP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 1 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.                                                             ^|
+echo.                                                             ^|
+echo.                                                             ^|
+echo.
+echo.
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                           ^| ^|
+echo.                                                           ^|^|^|
+echo.                                                            ^|^|^|
+echo.                                                            ^|^|^|
+echo.              +                                              -
+echo.                                                             ^|
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %3==1 goto:gr.p1.mgc.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                            ^| ^|
+echo.                                                            ^| ^|
+echo.                                                            ^|^|^|
+echo.                                                            ^|^|^|
+echo.              +                                             ^|-^|
+echo.                                                            ^|^|^|
+echo.                                                           ^|^|^|
+echo.                                                           ^|^|^|
+echo.                                                             ^|
+echo.                                                             ^|
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                            ^| ^|
+echo.              +                                             ^|-^|
+echo.                                                            ^|^|^|
+echo.                                                            ^|^|^|
+echo.                                                           ^|^|^|
+echo.                                                           ^|^|^|
+echo.                                                           ^|^|
+echo.                                                           ^|^|
+echo.                                                           ^|
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.              +                                              -
+echo.
+echo.                                                            ^| ^|
+echo.                                                            ^|^|
+echo.                                                           ^|^|
+echo.                                                           ^|^|
+echo.                                                           ^|
+echo.                                                           ^|
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.                                                            ^|
+echo.                                                          ^|
+echo.
+echo.                                                            ^|
+echo.                                                           ^|
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %5==0 set grph=Health
+if %5==1 set grph=CRITICAL
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                      %grph% -%4
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p1.mgc.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                        ^| ^| ^|
+echo.                                                          ^| ^|^|
+echo.                                                           /   \
+echo.              +                                             [-]
+echo.                                                           \   /
+echo.                                                       ^|   ^| ^|
+echo.                                                          ^|  ^| ^|
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                        ^|          ^|
+echo.                                                  ^|              
+echo.                                                         /       \
+echo.
+echo.              +                                              -
+echo.                                                                         ^| 
+echo.                                               ^|         \       /
+echo.                                                     ^|                      
+echo.                                                                        ^|
+echo.                                                                
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                            Miss!
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p2.mgc
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                           -%6 MP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 1 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.               ^|
+echo.               ^|
+echo.               ^|
+echo.
+echo.
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.             ^| ^|
+echo.            ^|^|^|
+echo.            ^|^|^|
+echo.            ^|^|^|
+echo.              +                                              -
+echo.              ^|
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %3==1 goto:gr.p2.mgc.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.             ^| ^|
+echo.             ^| ^|
+echo.            ^|^|^|
+echo.            ^|^|^|
+echo.             ^|+                                              -
+echo.            ^|^|^|
+echo.            ^|^|^|
+echo.            ^|^|^|
+echo.              ^|^|
+echo.                ^|
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.             ^| ^|
+echo.             ^|+^|                                             -
+echo.            ^|^|^|
+echo.            ^|^|^|
+echo.            ^|^|^|
+echo.            ^|^|^|
+echo.              ^|^|
+echo.              ^|^|
+echo.                ^|
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.              +                                              -
+echo.
+echo.            ^| ^|
+echo.             ^|^|
+echo.             ^|^|
+echo.             ^|^|
+echo.               ^|
+echo.               ^|
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.            ^|
+echo.               ^|
+echo.
+echo.             ^|
+echo.            ^|
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %5==0 set grph=Health
+if %5==1 set grph=CRITICAL
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.           %grph% -%4
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p2.mgc.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.           ^| ^| ^|
+echo.          ^| ^|^|
+echo.            /   \
+echo.             [+]                                             -
+echo.            \   /
+echo.         ^|   ^| ^|
+echo.           ^|  ^| ^|
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.             ^|          ^|
+echo.        ^|              
+echo.          /       \
+echo.
+echo.              +                                              -
+echo.                     ^| 
+echo. ^|       \       /
+echo.           ^|                      
+echo.                       ^|
+echo.                                                                
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.             Miss!
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+::=================================================================================================================================================
+::MAGIC ARROW! PEW PEW!
+:gr.p1.mga
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.          -%6 MP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 1 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.               \               
+echo.              +=                                             -
+echo.               /               
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.             \
+echo.              \
+echo.              \\
+echo.              +=                                             -
+echo.              //         
+echo.              /
+echo.             /
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.            /
+echo.           \\
+echo.             \
+echo.              \\\
+echo.              \\ \
+echo.              += --                                          -
+echo.              // /        
+echo.              ///
+echo.             /
+echo.           //
+echo.            \
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.           /
+echo.          \ \
+echo.            \
+echo.             \\ \
+echo.              \ \ \
+echo.              +=                  ==----------               -
+echo.              / / /        
+echo.             // /
+echo.            /
+echo.          / /
+echo.           \
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %3==1 goto:gr.%2.%1.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.         /
+echo.
+echo.      \ \
+echo.          \
+echo.           \ \
+echo.       \   \                                         --------
+echo.              +                                  ==----------------
+echo.       /   /                                         --------
+echo.           / /
+echo.          /
+echo.      / /
+echo.
+echo.         \
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.       \                                                    /
+echo.           \   \                                          / /
+echo.           \  \                                             /
+echo.                                                           // /
+echo.           \    \                                          / / /
+echo.              +                                              -------------------
+echo.           /    /                                         \ \ \        
+echo.                                                           \\ \
+echo.            /   /                                           \
+echo.             /   /                                        \ \
+echo.         /                                                  \
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.        \                                                            /
+echo.             \                                            
+echo.                                                                /
+echo.         \   \                                      
+echo.                                                           /     /      /
+echo.              +                                              -
+echo.         /   /                                         \     \       \        
+echo.                                                         
+echo.            /                                                   \
+echo.       /                                                 
+echo.                                                                    \
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                              /
+echo.
+echo.
+echo.                                                                 /
+echo.              +                                              -
+echo.                                                                 \
+echo.
+echo.
+echo.                                                              \
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %5==0 set grph=Health
+if %5==1 set grph=CRITICAL
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                      %grph% -%4
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p1.mga.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.         /
+echo.
+echo.      \ \
+echo.          \
+echo.           \ \
+echo.       \   \                                                       --------
+echo.              +                                              -   =--------------
+echo.       /   /                                                       --------
+echo.           / /
+echo.          /
+echo.      / /
+echo.
+echo.         \
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.       \                                        
+echo.        \                                       
+echo.          \                                     
+echo.         \          
+echo.    \   \                             
+echo.           \                             
+echo.              +                                              -   
+echo.      /                             
+echo.      /  /                             
+echo.         /                                 
+echo.        /                                       
+echo.         /
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0>nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.       \                                        
+echo.                                              
+echo.                                              
+echo.                      
+echo.    \                                          
+echo.            \                             
+echo.              +                                              -   
+echo.             /                             
+echo.                                    
+echo.                                               
+echo.        /                                       
+echo.         /
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0>nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.                                                
+echo.                                                
+echo.                                                
+echo.                                                           Miss!
+echo.                                                
+echo.                                                
+echo.              +                                              -   
+echo.                                                
+echo.                                                
+echo.                                                
+echo.                                                
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof:gr.p1.mga
+:gr.p2.mga
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                          -%6 MP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 1 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                            /               
+echo.              +                                             =-
+echo.                                                            \               
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                               /
+echo.                                                              /
+echo.                                                            //
+echo.              +                                             =-
+echo.                                                            \\         
+echo.                                                              \
+echo.                                                               \
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                                \
+echo.                                                                //
+echo.                                                              //
+echo.                                                            / /
+echo.                                                          / //
+echo.              +                                          -- =-
+echo.                                                          \ \\         
+echo.                                                            \ \
+echo.                                                              \\
+echo.                                                                \\
+echo.                                                                /
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                                \
+echo.                                                                 / /
+echo.                                                               / /
+echo.                                                             /  /
+echo.                                                           / / /
+echo.              +          --------------=                     -
+echo.                                                           \ \ \         
+echo.                                                             \  \
+echo.                                                               \ \
+echo.                                                                 \ \
+echo.                                                                 /
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %3==1 goto:gr.%2.%1.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                                  
+echo.                                                                 /    /
+echo.                                                                  /   /
+echo.                                                                /   
+echo.           ------                                            /     /
+echo.   -----------+---=                                          -
+echo.           ------                                            \     \         
+echo.                                                                \   
+echo.                                                                 \   \
+echo.                                                                 \    \
+echo.                                                                 
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.       \                                                              /
+echo.           \   \                                               /
+echo.           \  \                                            /
+echo.                                                                /
+echo.           \    \                                          / 
+echo. -------------+                                              -
+echo.           /    /                                              \        
+echo.                                                                  \
+echo.            /   /                                           \
+echo.             /   /                                             \
+echo.         /                                                            \
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.        \                                                            /
+echo.             \                                            
+echo.                                                                /
+echo.         \   \                                      
+echo.                                                               
+echo.              +                                              -
+echo.         /   /                                                
+echo.                                                         
+echo.            /                                                   \
+echo.       /                                                 
+echo.                                                                    \
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.     \
+echo.
+echo.
+echo.           \
+echo.              +                                              -
+echo.           /
+echo.
+echo.
+echo.      /
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %5==0 set grph=Health
+if %5==1 set grph=CRITICAL
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.         %grph% -%4
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p2.mga.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                                  
+echo.                                                                 /    /
+echo.                                                                  /   /
+echo.                                                                /   
+echo.  ------                                                     /     /
+echo.--------==   +                                               -
+echo.  ------                                                     \     \         
+echo.                                                                \   
+echo.                                                                 \   \
+echo.                                                                 \    \
+echo.                                                                 
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.                                                                                                        
+echo.                                                                 /                                       
+echo.                                                                /                                     
+echo.                                                               /          
+echo.                                                             /   /                             
+echo.                                                             /                             
+echo.              +                                              -  
+echo.                                                             \                              
+echo.                                                             \  \                             
+echo.                                                               \                                 
+echo.                                                                \                                       
+echo.                                                                 \
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0>nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.                                                                                                            
+echo.                                                                                                      
+echo.                                                                                                  
+echo.                                                                  /          
+echo.                                                                      /                             
+echo.                                                                                             
+echo.              +                                              -   
+echo.                                                                                               
+echo.                                                                      \                               
+echo.                                                                 \                                 
+echo.                                                                                                      
+echo.                                                                      
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0>nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.                                                
+echo.                                                
+echo.                                                
+echo.             Miss!
+echo.                                                
+echo.                                                
+echo.              +                                              -   
+echo.                                                
+echo.                                                
+echo.                                                
+echo.                                                
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+
+::==================================================================================================================================================================================================
+::Sokatsui!!!!! PHOOOoOSH!
+:gr.p1.sok
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.          -%6 MP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 1 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.             \\               
+echo.              +                                              -
+echo.             //               
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                     \-/                     
+echo.              +       =                                      -
+echo.                     /-\                     
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.          
+echo.                                           /-///              
+echo.              +                             =                -
+echo.                                           \-\\\              
+echo.          
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                              ////
+echo.                                                              /--/
+echo.                                                             /-/-//
+echo.              +                                              -
+echo.                                                             \-\-\\
+echo.                                                             \--\
+echo.                                                              \\--
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %3==1 goto gr.p1.sok.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                             
+echo.                                                        -\-\   /-/
+echo.                                                   \\--\-\\-\ /-/-//--//
+echo.              +                                              0
+echo.                                                   //--/-//-/ \-\-\\--\\
+echo.                                                        -/-/   \-\-
+echo.                                                            
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                        \         /   
+echo.                                                                   
+echo.                                                 \   \    \     /    /    /
+echo.              +                                              -
+echo.                                                 /   /    /     \    \   \
+echo.                                                                   
+echo.                                                        /         \  
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                          
+echo.                                                                   
+echo.                                                \                          /
+echo.              +                                              -
+echo.                                                /                          \
+echo.                                                                   
+echo.                                                        
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %5==0 set grph=Health
+if %5==1 set grph=CRITICAL
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                      %grph% -%4
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p1.sok.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                             
+echo.                                                        -\-\   /-/-
+echo.                                                          \-\ /-/
+echo.                                                   \\--\-\\/   \-//--//
+echo.              +                                              -
+echo.                                                    //--/-/\   /-\\--\\
+echo.                                                          /-/ \-\
+echo.                                                        -/-/   \-\-
+echo.                                                            
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                             
+echo.                                                         \       / 
+echo.                                                           
+echo.                                                   \   \           /   /
+echo.              +                                              -
+echo.                                                   /   /           \   \
+echo.                                                          
+echo.                                                         /       \ 
+echo.                                                            
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                             
+echo.                                                         
+echo.                                                           
+echo.                                                  \                      /
+echo.              +                                              -
+echo.                                                  /                      \
+echo.                                                          
+echo.                                                        
+echo.                                                            
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                            Miss!
+echo.
+echo.
+echo.              +                                              -   
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p2.sok
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                          -%6 MP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 1 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                             //               
+echo.              +                                              -
+echo.                                                             \\               
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                  \-/                     
+echo.              +                                    =         -
+echo.                                                  /-\                     
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.          
+echo.                    \\\-\              
+echo.              +        =                                     -
+echo.                    ///-/              
+echo.          
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.         \\\\
+echo.          \--\
+echo.         \-\-\\
+echo.              +                                              -
+echo.         /-/-//
+echo.          /--/
+echo.         ////
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %3==1 goto gr.p2.sok.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                             
+echo.         -\-\   /-/
+echo.    \\--\-\\-\ /-/-//--//
+echo.              0                                              -
+echo.    //--/-//-/ \-\-\\--\\
+echo.         -/-/   \-\-
+echo.                                                            
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.         \         /   
+echo.                                                                   
+echo.  \   \    \     /    /    /
+echo.              +                                              -
+echo.  /   /    /     \    \   \
+echo.                                                                   
+echo.         /         \  
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                          
+echo.                                                                   
+echo. \                          /
+echo.              +                                              -
+echo. /                          \
+echo.                                                                   
+echo.                                                        
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %5==0 set grph=Health
+if %5==1 set grph=CRITICAL
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.          %grph% -%4
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p2.sok.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                             
+echo.         -\-\   /-/-
+echo.           \-\ /-/
+echo.    \\--\-\\/   \-//--//
+echo.              +                                              -
+echo.     //--/-/\   /-\\--\\
+echo.           /-/ \-\
+echo.         -/-/   \-\-
+echo.                                                            
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                             
+echo.          \       / 
+echo.                                                           
+echo.    \   \           /   /
+echo.              +                                              -
+echo.    /   /           \   \
+echo.                                                          
+echo.          /       \ 
+echo.                                                            
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                             
+echo.                                                         
+echo.                                                           
+echo.   \                      /
+echo.              +                                              -
+echo.   /                      \
+echo.                                                          
+echo.                                                        
+echo.                                                            
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.             Miss!
+echo.
+echo.
+echo.              +                                              -   
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+::=============================================================================================================================================================
+::LIGTHNING!!! BBBBBZZZZZZZZZZZZZZ!
+:gr.p1.lig
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.          -%6 MP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 1 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.              /
+echo.             \\/              
+echo.              +                                              -
+echo.             //\              
+echo.              \
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.              /
+echo.           \//
+echo.            \/\
+echo.            /\\               
+echo.              +                                              -
+echo.            \//               
+echo.            /\/
+echo.           /\\
+echo.              \
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.            \/
+echo.             \/    \
+echo.             /\/   /\
+echo.              /    \\--\       
+echo.              +                                              -
+echo.              \    //--/      
+echo.             \/\   \/
+echo.             /\    /
+echo.            /\
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.           \ 
+echo.            \/      
+echo.            /\                           \
+echo.             \/                          -\\       
+echo.              +                            ^>                 -
+echo.             /\                          -//     
+echo.            \/                           /
+echo.            /\     
+echo.           / 
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %3==1 goto gr.p1.lig.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.        / 
+echo.                                                             \/\
+echo.                                                            \/
+echo.            \                                               //--/
+echo.              +                                              -
+echo.            /                                               \\--\
+echo.                                                            /\
+echo.                                                             /\/
+echo.        \ 
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.         \                                                       /
+echo.                                                              /    /
+echo.              +                                              -
+echo.                                                              \    \
+echo.         /                                                       \
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                              /
+echo.
+echo.
+echo.                                                                 /
+echo.              +                                              -
+echo.                                                                 \
+echo.
+echo.
+echo.                                                              \
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %5==0 set grph=Health
+if %5==1 set grph=CRITICAL
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                      %grph% -%4
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p1.lig.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.          / 
+echo.                 
+echo.                                                                    \
+echo.             \                                                       \-\     
+echo.              +                                              -         ^>
+echo.             /                                                       /-/     
+echo.                                                                    /
+echo.               
+echo.          \ 
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.         \                                                    
+echo.                                                              
+echo.              +                                               -
+echo.                                                          
+echo.         /                                                    
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                           Miss!
+echo.
+echo.
+echo.              +                                              -   
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p2.lig
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                          -%6 MP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 1 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                             \
+echo.                                                            \//              
+echo.              +                                              -
+echo.                                                            /\\             
+echo.                                                             /
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                                      
+echo.                                                             \        
+echo.                                                              \\/     
+echo.                                                             /\/      
+echo.                                                             //\    
+echo.              +                                              -
+echo.                                                             \\/      
+echo.                                                             \/\     
+echo.                                                              //\     
+echo.                                                             /        
+echo.                                                                      
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                                      
+echo.                                                              \/      
+echo.                                                        /    \/       
+echo.                                                       /\   \/\       
+echo.                                                    /--//    \      
+echo.              +                                              -
+echo.                                                    \--\\    /        
+echo.                                                       \/   /\/      
+echo.                                                        \    /\       
+echo.                                                              /\      
+echo.                                                                      
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                                      
+echo.                                                                /      
+echo.                                                              \/       
+echo.                                     /                        /\       
+echo.                                   //-                       \/      
+echo.              +                  ^<                           -
+echo.                                   \\-                       /\        
+echo.                                     \                        \/      
+echo.                                                              /\       
+echo.                                                                \      
+echo.                                                                      
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %3==1 goto gr.p2.lig.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                                    \
+echo.           /\/                                                    
+echo.             \/                                               
+echo.          \--\\                                                / 
+echo.              +                                              -
+echo.          /--//                                                \ 
+echo.             /\                                               
+echo.           \/\                                                  
+echo.                                                                    /
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.             \                                                       /
+echo.           \    \
+echo.              +                                              -
+echo.           /    /
+echo.             /                                                       \
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.             \
+echo.
+echo.
+echo.        \
+echo.              +                                              -
+echo.        /
+echo.
+echo.
+echo.             /
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+if %5==0 set grph=Health
+if %5==1 set grph=CRITICAL
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.         %grph% -%4
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p2.lig.m
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                                      
+echo.                                                                    \      
+echo.                                                                   
+echo.          /                                                          
+echo.       /-/                                                     /    
+echo.     ^<        +                                              -
+echo.       \-\                                                     \        
+echo.          \                                                         
+echo.                                                                    
+echo.                                                                    /      
+echo.                                                                      
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                                    /                                                    
+echo.                                                              
+echo.              +                                               -
+echo.                                                          
+echo.                                                                    \                                                    
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.             Miss!
+echo.
+echo.
+echo.              +                                              -   
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+::=================================================================================================================================================================
+::you'll surely find, enlightenment.
+:gr.p1.enl
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.          -%3 MP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 1 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.             \                                                               
+echo.              +                                              -
+echo.             /                                                               
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.             /                                                               
+echo.             \/\                                                             
+echo.              +                                              -
+echo.             /\/                                                             
+echo.             \                                                               
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.               /                                                             
+echo.             //                                                              
+echo.             //\                                                             
+echo.             \/\\                                                            
+echo.              +                                              -
+echo.             /\//                                                            
+echo.             \\/                                                             
+echo.             \\                                                              
+echo.               \                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                /                                                            
+echo.            /                                                                
+echo.               \                                                             
+echo.              /\\                                                            
+echo.              +                                              -
+echo.              \//                                                            
+echo.               /                                                             
+echo.            \                                                                
+echo.                /                                                            
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                            
+echo.                                                                             
+echo.                                                                             
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.              \                                                             
+echo.              \                                                              
+echo.              +                                              -
+echo.              /                                                              
+echo.              /                                                               
+echo.                                                                              
+echo.                                                                             
+echo.                                                                              
+echo.                                                                              
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                            
+echo.              \                                                              
+echo.              +                                              -
+echo.              /                                                              
+echo.                                                                            
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.         All stats +%4
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof
+:gr.p2.enl
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                          -%3 MP
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 1 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                              /              
+echo.              +                                              -
+echo.                                                              \              
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                              \              
+echo.                                                            /\/              
+echo.              +                                              -
+echo.                                                            \/\              
+echo.                                                              /              
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                            \                
+echo.                                                             \               
+echo.                                                             \\              
+echo.                                                            /\\              
+echo.                                                           //\/              
+echo.              +                                              -
+echo.                                                           \\/\              
+echo.                                                            \//              
+echo.                                                             //              
+echo.                                                             /               
+echo.                                                            /                
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                           \                 
+echo.                                                                             
+echo.                                                               \             
+echo.                                                            /                
+echo.                                                           //\               
+echo.              +                                              -
+echo.                                                           \\/               
+echo.                                                            \                
+echo.                                                               /             
+echo.                                                                             
+echo.                                                           /                 
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                             /              
+echo.                                                             /               
+echo.              +                                              -
+echo.                                                             \               
+echo.                                                             \                
+echo.                                                                              
+echo.                                                                             
+echo.                                                                              
+echo.                                                                              
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                            
+echo.                                                             /               
+echo.              +                                              -
+echo.                                                             \               
+echo.                                                                            
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+echo.                                                                             
+timeout 0 >nul
+cls
+echo --------------------------------------------------------------------------------
+echo.
+echo.                          S o u l s t r e a m   I I
+echo.
+echo --------------------------------------------------------------------------------
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.                                                        All stats +%4
+echo.
+echo.              +                                              -
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+echo.
+timeout 2 >nul
+goto:eof

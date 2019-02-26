@@ -1,0 +1,21 @@
+
+Item Concept SS2 
+
+FindMyItem Function (ItemID)
+
+Items will now only have 2 Slots - misc equips, with 4 itemslot spaces.
+
+p1.is.4=ITEM_ID
+Item Slot
+
+p1.es.2=ITEM_ID
+Equip Slot
+
+p1.ei.3=ENCHANT_ID
+Enchantment ID
+
+Enchantments will be attached to the slot, though the only way to unequip the item is to destroy it.
+
+
+
+

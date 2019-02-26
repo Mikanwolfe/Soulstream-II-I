@@ -1,0 +1,105 @@
+Enchant Verbs
+
+legendary
+godly
+deadly
+magnanimous  - generous
+affable      - friendly
+staunch      - Strong, substantial
+submissive
+wonderful
+delightful
+mediocre
+average
+ordinary
+satisfactory
+fatal
+envious
+luxurious
+comfortable
+miserable
+intricate
+immature 
+enthusiastic
+vigorous
+tender
+experienced
+authentic
+reasonable
+extravagant
+beautiful
+noble
+archaic      -Early, an archaic time
+exalted      -Noble
+rapturous    -Delight
+exstatic     -Positive, Delight, Hyper
+intolerant
+ironic
+absurd
+icredible
+trivial
+significant
+dramatic
+humourous
+inspirational
+symbolic
+fair
+good
+strong
+grisly       -fearful
+
+::Negative
+ugly
+akward
+biazarre
+clumsy
+haughty      -too proud 
+hideous
+dreaful
+repulsive
+atrocious
+insulting
+vexed
+hypocritical
+lethargic
+terrible
+annoying
+crap
+short
+sluggish
+sad
+wobbly
+delicate
+faint
+forceless
+exhausted
+decript
+sickly
+uncertain
+puny
+senile
+down
+mean
+poor
+unhealthy
+tender
+unsound
+wasted
+weakly
+unhappy
+stinky
+foul
+shaky
+fragile
+weak
+thin
+small
+tiny
+inefficient
+loathsome
+stupid
+dull
+broken
+useless
+blunt
+worn

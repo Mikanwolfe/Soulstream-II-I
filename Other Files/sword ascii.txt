@@ -1,0 +1,40 @@
+
+SSII sword ascii
+
+echo --------------------------------------------------------------------------------
+echo.           /\                                                                  
+echo.          \\//                                                                 
+echo.           \/                                                                  
+echo.           \/                                                                  
+echo.           ::                                                                  
+echo.           ::                                                                  
+echo.     \     ::     /                                                            
+echo.     \\ /\/::\/\ //                                                            
+echo.      \\/\ II /\//                                                             
+echo.      \\  \\//  //                                                            
+echo.       \  /\/\  /                                                             
+echo.          |/\|                                                                 
+echo.          ||||                                                                 
+echo.          |\/|                                                                 
+echo.          \||/                                                                 
+echo.           \/                                                                 
+echo.           ||                                                                  
+echo.           ||                                                                 
+echo.           ||                                                                  
+echo.           ||                                                                  
+echo.           ||                                                                  
+echo.           ||                                                                  
+echo.           ||                                                                  
+echo.           ||                                                                  
+echo.           ||                                                                  
+echo.           ||                                                                  
+echo.           ||                                                                  
+echo.           ||                                                                  
+echo.           ||                                                                  
+echo.           ||                                                                  
+echo.           ||                                                                  
+echo.           ||                                                                  
+echo.           \/                                                                  
+echo.           \/                                                                  
+echo.           \/                                                                  
+echo --------------------------------------------------------------------------------

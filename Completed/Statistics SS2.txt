@@ -1,0 +1,141 @@
+Stats SS2
+
+Defence Calculations:
+NO NEGATIVE DEFENCE
+
+100 / (100 +def - skill_dfp) * (dmg * [1-prot%])
+
+i.e.
+30def, 10prot%, 200dmg, 10dfp
+100 / 120 * (200 * 90%)
+=149DMG
+
+NOTE: DFP used in calculations is multiplied by skillmultiplier.
+
+Accuracy
+
+100 / (100 + { [P1.DEX - P2.INT] / [P1.DEX+P2.INT] * 100 } ) + skill.acc
+100DEX, 80INT, 40%SK.ACC
+100 / 180 + .4
+55% + 40% = 95%
+
+Damage
+
+MAX = Skill_Base_Damage * (100 + STR) / 100
+
+MIN = MAX - (MAX * 100 / (100 + BAL + Skill_Base_Balance))
+
+DMG = random( MIN, MAX )
+
+200SBD, 100STR, 80BAL, 20SBB
+
+MAX = 200 * (200/100) = 400
+MIN = 400 - (400 * (100 / 100 + 80 + 20) = 200)
+DMG = 200 ~ 400
+
+40SBD, 170STR, 190BAL, 100SBB
+
+MAX = 40 * (170/100) = 68
+MIN = 68 - (68 * 100 / (100 + 190 + 100)) = 45
+DMG = 45 ~ 68
+
+SC+XP
+
+TD = Total Damage
+
+SCXP = (80 + WIL or LUK /2) / 100
+
+SC or XP = TD * SCXP
+
+SC, 400TD, 180LUK
+
+SC = 400 * (80 + 180 /2 ) / 100 = 520
+
+Crit:
+CRR = 1 - 100 / 100 + INT
+CRM = 1 + ( 1 - 100 + DEX )
+
+
+::====================================--------------------------------------------------------------======
+XP = Experience
+SC = Soul Coins (credits)
+
+CRM = Critical Multiplier
+CRR = Critical Rate
+
+DFP = Defence Penetration
+DFR = Defence Resistance
+PRO = Protection
+
+AVD = Avoidance
+ACC = Accuracy
+
+=============
+STR +max +def
+DEX +bal +acc +dfp
+INT +MP +CRR +dfr
+LUK +CRM +SC
+WIL +HP +XP
+=============
+Player Stat Variables
+p1.stat.str
+
+DEF Defence
+BAL Balance
+ACC Accuracy
+AVD Avoidance
+CRR Critical Rate
+CRM Critical Multiplier
+
+CMP Base/Class MP
+MP Mana Points
+CHP Base/Class HP
+HP Health Points
+
+SC Soul Coins
+XP Experience
+=============
+
+DEF = STR / 10 + OTHER
+BAL = DEX / 5 + OTHER
+MP = BASE + INT / 2
+HP = BASE + WIL
+
+=============
+Skill Varibles
+
+skill.(name).sr
+
+SR Skill Rank
+SV Skill Value
+SC Skill Cost
+SX Skill XP
+SA Skill Accuracy
+SB Skill Balance
+SP Skill Defpen
+
+=============
+Class Variables
+
+p1.class.cl
+
+CHP (Class HP)
+CMP (Class MP)
+
+CLV Class Level
+CDF Class Defence
+CDP Class Defpen
+CBL Class Balance
+
+CSTR Class STR
+CDEX Class DEX
+CINT Class INT
+CLUK Class LUK
+CWIL Class WIL
+
+
+
+
+
+
+

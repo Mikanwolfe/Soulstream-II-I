@@ -1,0 +1,134 @@
+Statistical Systems Update:
+
+Concepts:
+Critical Rates (Critical Percentage? Protection?)
+
+Player Stats (Str? Dex? Int? Luck? Will?)
+
+p1.stat.crit
+p2.stat.str
+p1.stat.luck
+
+str +max +critmod
+dex +min, +accuracy
+int +evasion, +critrate
+
+luck +crit +gold gain
+will +deadly, +xp gain +hp
+soul +deadly +all stats +energy
+
+damage     min~max
+critrate   percentage
+accuracy   acc-eva
+deadly     percentage
+gold/xp    gain factor +(0.0)
+
+modifiers
+
+skills give different stats, stats MIGHT be directly modifiable.
+say every 2str will give +2max +0.1crit
+
+
+skillcrit will be affected by skills.
+
+ACCURACY = SkillMissrate (SMR) 
+say p1 is attacking
+if p2's eva gtr p1's acc, then set the missrate to twice the base missrate
+else
+then calculate:
+p1's acc - p2's eva / p1's acc
+eg
+10 - (5 / 2 = 2) / 10  = 0.8 (hitrate) - BaseMissRate and if HitRate-BaseMissRate leq 0 then set missrate to half the base missrate
+eg. if BaseMissRate = 0.2 then the hitrate will be 0.6 = 60% chance of hitting (0.2 is fairly high)
+not sure about it yet
+
+::===========================--------------------------=======================
+
+Damage = (skillmax + statmax) ~ (skillmin + statmin)
+eg. attack = 10 ~ 20 damage. say statmin +10, statmax +15, so damage would be (10+10) ~ (20+15), 20-35
+
+Each stat has an effective cap, so say the cap is 300 and for every 3str, you will gain +1statmax, then the max gain is +100statmax
+The cap might be set at ~1200 for each stat
+
+say for every 3 luck will give you +0.01 gold gain and luck is capped at 1200
+if luck is at 300, it will give you (0.01) * (300/3) = 1.00 +1.00 more gold gain meaning that you would get twice times as much and is capped at 4 times.
+
+say for every 2 will you have it will increase dc (deadly [chance])  by 0.05 and is capped at 800
+if will is at 400, you will gain: 0.05 * (400/2=200) = 10% chance of deadly effect applying, capped at 20% 
+
+so yeah
+
+cap 1200, 3 str  = +2 max
+cap 1200  4 dex  = +2 min      +0.05 acc
+cap 1200  4 int  = +0.03 crit  +0.05 eva
+cap 1200  3 luck = +0.03 crit  +0.01 gold 
+cap  800  2 will = +0.05 dc    +0.01 exp    +2   HP
+cap 1000  2 soul = +0.05 dc    +1  stat   +0.5   EP
+
+Soul provides bonus stats which aren't affected by cap (doesn't apply to own stat)
+so
+
+1200 + 500 str   = + 1132   max
+1200 + 500 dex   = + 850    min   + 21.25 (21)  acc
+1200 + 500 int   = + 12%   crit   + 21.25 (21)  eva
+1200 + 500 luck  = + 16%   crit   + 5.6x  gold
+800  + 500 will  = + 32% deadly   + 6.5x   exp +2600   HP
+1000       soul  = + 30% deadly   + 500   stat +500    EP
+
+MAX STATS
+
+Attack  850 ~ 1132
+Crit    28%
+Acc     21.25
+Eva     21.25
+Deadly  62%
+Gold+   5.6x
+EXP+    6.5x
+HP      +2600
+EP      +500
+
+eg
+
+say you're attacking with holy arrow at 400damage
+then
+your damage = (850 + 400) ~ (1132 + 400) =    1250 ~ 1532 damage
+crit would be = (1250 * 5.6) ~ (1532 * 5.6) = 7000 ~ 8579 damage at (28% + 10% = 38% (holy arrow's base crit rate)) Crit Rate
+
+starting stats: 
+
+	12   str = + 6        max
+	8    dex = + 4        min  + 0.10   acc
+	8    int = + 0.06    crit  + 0.10   eva
+	6   luck = + 0.06    crit  + 0.02  gold
+	0   will = + 0     deadly  + 0      exp    +0 HP
+	0   soul = + 0     deadly  + 0     stat    +0 EP
+
+if the stat effects are under 1 (say 0.05), then the stat's effect is 0.
+	gold/exp gain only counts if it is geq 0.1, else, the stat's effect is 0.
+effects are rounded down to the nearest 1% (so 49.99 = 49%)
+	gold/exp gain are execptions and are instead rounded down the the nearest 0.1%
+
+STARTING STATS:
+
+Attack  4 ~ 6
+Crit    0%
+Acc     0
+Eva     0
+Deadly  0%
+Gold+   0x
+EXP+    0x
+HP      +4
+EP      +0
+
+say you're using attack at 7 ~ 13 damage, then
+(7+4) ~ (13+6) = 11 ~ 19 damage
+the critical rate for attack is 15%
+
+Say your CriticalValue is 28%(max), then the max crit on attack would be (28+15) = 43%
+
+Critcal:
+the base critical rate of a skill should not exceed 20 ~ 30% as at max, the critical is increased by 28%
+Critical is upgraded by ranking up the passive skill [Critical]
+	Critical is calculated by [Damage] + ([Critical.M] * [Damage])
+	Critical.M is based on 0.5 = 5 (float 10)
+::===========================--------------------------=======================

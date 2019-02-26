@@ -1,0 +1,14 @@
+10-6
+Accuracy capped at min. 15 and max. 90.
+Added a loss calculator. if you lose more than 2 times, you will get a boost in xp and sc gain.
+Added hp and mp limit.
+Buffed regen and rumination - they give 2x as much now.
+Lightning graphics finished.
+Lightning balanced changed from 10 to 30
+
+13-6
+accuracy calculations changed
+mp drain inverse to rank
+mp drain calculations changed
+attack nerfed
+all starting skills rebalanced

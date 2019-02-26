@@ -1,0 +1,313 @@
+
+set/a p1.ew=0
+set/a p2.ew=0
+set/a p1.la=0
+set/a p2.la=0
+set/a p1.lu=0
+set/a p2.lu=0
+set p1.ew.v=Avaliable
+set p2.ew.v=Avaliable
+set p1.la.v=Avaliable
+set p2.la.v=Avaliable
+set p1.lu.v=Avaliable
+set p2.lu.v=Avaliable
+
+Variables SSII
+
+Critrate - 1~1000 (10 = 1%)
+CritMult - 1~100 (50 = 5x, 10 = 1x)
+
+SKILLS
+=============================
+NORMAL
+=============================
+ATT 	Attack
+HEA 	Heal
+FUS 	Fusion
+RES 	Rest
+=============================
+LOCKED
+=============================
+MGC	Magic Claw
+MGA	Magic Arrow
+SOK	Sokatsui
+LIG	 Lightning
+ENL 	Enlightenment
+DBL	Dire Blade
+=============================
+EWECA
+=============================
+ICE  	Ice Spear
+FIR 	Firestorm
+ESC 	Eweca Scythe
+CLA 	Clairvoyance
+HLY 	Holy Arrow
+=============================
+LACEDA
+=============================
+CER	Cero
+LSC	Lunar Scythe
+LSP	Lunar Spear
+SHM	Sharp Mind
+LAC	Laceda Blade
+=============================
+LUMINOUS
+=============================
+WOW	Wings of White
+DKL	Dark Light
+WOR	Wings of Rage
+WIT	Wither
+ARC	Luminous Arc
+=============================
+
+::skill base costs
+rank, rankID, SC, XP
+0  0   0%  20  20
+F  1  50%  30  20
+E  2  60%  40  20
+D  3  70%  50  40
+C  4  80%  60  60
+B  5  90%  60  80
+A  6  100% 80  100
+9  7  110% 80  100
+8  8  120% 80  100
+7  9  140% 100 140
+6  10 160% 120 180
+5  11 200% 140 200
+4  12 240% 160 200
+3  13 280% 240 200
+2  14 340% 360 300
+1  15 400%
+
+set/a p1.att.sa=60
+set/a p1.att.sb=50 
+set/a p1.att.sp=10 
+set/a p2.att.sa=6 
+set/a p2.att.sb=50 
+set/a p2.att.sp=10
+ 
+set/a p1.hea.sa=100
+set/a p1.hea.sb=50 
+set/a p1.hea.sp=0 
+set/a p2.hea.sa=10 
+set/a p2.hea.sb=50 
+set/a p2.hea.sp=0 
+ 
+set/a p1.mga.sa=70
+set/a p1.mga.sb=40 
+set/a p1.mga.sp=20 
+set/a p2.mga.sa=7 
+set/a p2.mga.sb=40 
+set/a p2.mga.sp=20 
+ 
+set/a p1.res.sa=100
+set/a p1.res.sb=100 
+set/a p1.res.sp=0 
+set/a p2.res.sa=10 
+set/a p2.res.sb=100 
+set/a p2.res.sp=0 
+ 
+set/a p1.mgc.sa=60
+set/a p1.mgc.sb=80 
+set/a p1.mgc.sp=50 
+set/a p2.mgc.sa=60 
+set/a p2.mgc.sb=80 
+set/a p2.mgc.sp=50 
+ 
+set/a p1.fus.sa=50 
+set/a p1.fus.sb=20 
+set/a p1.fus.sp=20 
+set/a p2.fus.sa=50 
+set/a p2.fus.sb=20 
+set/a p2.fus.sp=20 
+ 
+set/a p1.sok.sa=60 
+set/a p1.sok.sb=40 
+set/a p1.sok.sp=30 
+set/a p2.sok.sa=60 
+set/a p2.sok.sb=40 
+set/a p2.sok.sp=30 
+ 
+set/a p1.lig.sa=10 
+set/a p1.lig.sb=10 
+set/a p1.lig.sp=80 
+set/a p2.lig.sa=10 
+set/a p2.lig.sb=10 
+set/a p2.lig.sp=80 
+ 
+set/a p1.enl.sa=100 
+set/a p1.enl.sb=100 
+set/a p1.enl.sp=0 
+set/a p2.enl.sa=100 
+set/a p2.enl.sb=100 
+set/a p2.enl.sp=0 
+ 
+set/a p1.dbl.sa=80 
+set/a p1.dbl.sb=50 
+set/a p1.dbl.sp=60 
+set/a p2.dbl.sa=80 
+set/a p2.dbl.sb=50 
+set/a p2.dbl.sp=60 
+ 
+set/a p1.ice.sa=60 
+set/a p1.ice.sb=100 
+set/a p1.ice.sp=40 
+set/a p2.ice.sa=60 
+set/a p2.ice.sb=100 
+set/a p2.ice.sp=40 
+ 
+set/a p1.fir.sa=50 
+set/a p1.fir.sb=80 
+set/a p1.fir.sp=45 
+set/a p2.fir.sa=50 
+set/a p2.fir.sb=80 
+set/a p2.fir.sp=45 
+ 
+set/a p1.esc.sa=40 
+set/a p1.esc.sb=70 
+set/a p1.esc.sp=120 
+set/a p2.esc.sa=40 
+set/a p2.esc.sb=70 
+set/a p2.esc.sp=120 
+ 
+set/a p1.clr.sa=100 
+set/a p1.clr.sb=0 
+set/a p1.clr.sp=0 
+set/a p2.clr.sa=100 
+set/a p2.clr.sb=0 
+set/a p2.clr.sp=0 
+ 
+set/a p1.hly.sa=50 
+set/a p1.hly.sb=40 
+set/a p1.hly.sp=50
+set/a p2.hly.sa=50 
+set/a p2.hly.sb=40 
+set/a p2.hly.sp=50 
+ 
+set/a p1.cer.sa=50 
+set/a p1.cer.sb=40 
+set/a p1.cer.sp=30 
+set/a p2.cer.sa=50 
+set/a p2.cer.sb=40 
+set/a p2.cer.sp=30 
+ 
+set/a p1.lsc.sa=50 
+set/a p1.lsc.sb=30 
+set/a p1.lsc.sp=10 
+set/a p2.lsc.sa=50 
+set/a p2.lsc.sb=30 
+set/a p2.lsc.sp=10 
+ 
+set/a p1.lsp.sa=60 
+set/a p1.lsp.sb=40 
+set/a p1.lsp.sp=40 
+set/a p2.lsp.sa=60 
+set/a p2.lsp.sb=40 
+set/a p2.lsp.sp=40 
+ 
+set/a p1.shm.sa=100 
+set/a p1.shm.sb=100 
+set/a p1.shm.sp=0 
+set/a p2.shm.sa=100 
+set/a p2.shm.sb=100 
+set/a p2.shm.sp=0 
+ 
+set/a p1.lac.sa=50 
+set/a p1.lac.sb=40 
+set/a p1.lac.sp=20 
+set/a p2.lac.sa=50 
+set/a p2.lac.sb=40 
+set/a p2.lac.sp=20 
+ 
+set/a p1.wow.sa=40 
+set/a p1.wow.sb=10 
+set/a p1.wow.sp=80 
+set/a p2.wow.sa=40 
+set/a p2.wow.sb=10 
+set/a p2.wow.sp=80 
+ 
+set/a p1.dkl.sa=60 
+set/a p1.dkl.sb=0 
+set/a p1.dkl.sp=100 
+set/a p2.dkl.sa=60 
+set/a p2.dkl.sb=0 
+set/a p2.dkl.sp=100 
+ 
+set/a p1.wor.sa=40 
+set/a p1.wor.sb=40 
+set/a p1.wor.sp=60 
+set/a p2.wor.sa=40 
+set/a p2.wor.sb=40 
+set/a p2.wor.sp=60 
+ 
+set/a p1.wit.sa=100 
+set/a p1.wit.sb=100 
+set/a p1.wit.sp=0 
+set/a p2.wit.sa=100 
+set/a p2.wit.sb=100 
+set/a p2.wit.sp=0 
+ 
+set/a p1.arc.sa=70 
+set/a p1.arc.sb=10 
+set/a p1.arc.sp=200 
+set/a p2.arc.sa=70 
+set/a p2.arc.sb=10 
+set/a p2.arc.sp=200 
+
+Stats
+
+p1.hp
+p1.mp
+p1.hpl
+p1.mpl
+p1.hpa - Additional
+p1.mpa
+
+p1.xp
+p1.sc
+
+p1.str
+p1.dex
+p1.int
+p1.luk
+p1.wil
+
+p1.df
+p1.bl
+p1.cmp
+p1.chp
+
+p1.crm
+p1.crr
+p1.cdp
+p1.cdr
+p1.pro
+
+p1.avd
+p1.acc
+
+p1.clv
+p1.cdf
+p1.cdp
+p1.cbl
+
+p1.cstr
+p1.cdex
+p1.cint
+p1.cluk
+p1.cwil
+
+p1.td
+
+Skills
+
+p1.skill.c = cooldown
+
+p1.sr.SKILL
+p1.sv
+p1.sc
+p1.sx
+p1.sa
+p1.sb
+p1.sp
+
